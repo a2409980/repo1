@@ -17,16 +17,16 @@ def main():
         op = input('Entra una opció')
         if op=='d':
             #sumar 1 a la variable posX
-            pass
+            posX=posX+1
         elif op=='a':
             #restar 1 a la variable posX
-            pass
+            posX=posX-1
         elif op=='w':
             #sumar 1 a la variable posY
-            pass
+            posY=posY+1
         elif op=='s':
             #restar 1 a la variable posY
-            pass
+            posY=posY-1
         elif op=='0':
             sortir=True
             print("Has sortit de la nau")
